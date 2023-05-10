@@ -1,6 +1,5 @@
 # Sorteio-Javascript
-Esse repositório é apenas um exercício prático realizado a fim de evoluir nos estudos de javascript.
-Objetivo: Criar um site de sorteio de números.
+Este repositório contém um projeto prático desenvolvido para aprimorar os estudos em JavaScript. O objetivo é criar um site de sorteio de números, proporcionando uma experiência interativa para o usuário. A aplicação oferece recursos como a geração aleatória de números e a possibilidade de personalizar as configurações do sorteio.
 
 ## Tecnologias utilizadas
 <div>
