@@ -1,4 +1,4 @@
-# Jogo-Javascript
+# Sorteio-Javascript
 Esse repositório é apenas um exercício prático realizado a fim de evoluir nos estudos de javascript.
 Objetivo: Criar um site de sorteio de números.
 
