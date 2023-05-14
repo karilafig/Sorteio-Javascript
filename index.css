@@ -15,8 +15,26 @@ header{
     background: -webkit-linear-gradient(to left, #8C6258, #664841);  
     width: 100%;
     height:10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo-header{
     width: 10px;
 }
+
+.my-button {
+    background-color:#F0F0F2;
+    color: #97A624;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .my-button:hover {
+    background-color: #A3AFBF;
+    color:#F0F0F2;
+  }
