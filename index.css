@@ -1,0 +1,22 @@
+/*---------------BACKGROUND-----------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*---------------HEADER-----------------*/
+
+header{
+    background: #97A624;  
+    background: -webkit-linear-gradient(to left, #8C6258, #664841);  
+    width: 100%;
+    height:10vh;
+}
+
+.logo-header{
+    width: 10px;
+}
