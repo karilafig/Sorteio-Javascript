@@ -16,8 +16,6 @@ header{
     width: 100%;
     height:10vh;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .logo-header{
@@ -26,7 +24,7 @@ header{
     width: 60px;
 }
 
-.my-button {
+.donate-button {
     margin-bottom: 10px;
     position:absolute;
     bottom: 0;
@@ -40,7 +38,17 @@ header{
     cursor: pointer;
   }
   
-  .my-button:hover {
+  .donate-button:hover {
     background-color: #A3AFBF;
     color:#F0F0F2;
   }
+
+/*---------------MAIN-----------------*/
+main{
+    position: relative; /* definir posição relativa para que o position:absolute do botão funcione corretamente */
+    background: #F0F0F2;  
+    width: 100%;
+    height:100%;
+    display: flex;
+}
+/*---------------FOOTER-----------------*/
