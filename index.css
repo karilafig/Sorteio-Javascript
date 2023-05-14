@@ -11,8 +11,8 @@ body{
 /*---------------HEADER-----------------*/
 
 header{
+    position: relative; /* definir posição relativa para que o position:absolute do botão funcione corretamente */
     background: #97A624;  
-    background: -webkit-linear-gradient(to left, #8C6258, #664841);  
     width: 100%;
     height:10vh;
     display: flex;
@@ -21,10 +21,16 @@ header{
 }
 
 .logo-header{
-    width: 10px;
+    position: absolute; /* definir posição absoluta para tirar a logo do fluxo normal de layout */
+    left: 20px; /* ajustar o posicionamento da logo conforme necessário */
+    width: 60px;
 }
 
 .my-button {
+    margin-bottom: 10px;
+    position:absolute;
+    bottom: 0;
+    right: 30px; /* ajustar a margem direita do botão considerando a largura da logo e a margem horizontal */
     background-color:#F0F0F2;
     color: #97A624;
     font-size: 16px;
