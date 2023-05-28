@@ -53,7 +53,6 @@
     display: block;
     max-width: 100%;
     margin-bottom: 20px;
-    margin-top: 40px;
   }
   
   .title-number {
@@ -110,7 +109,24 @@
     justify-content: center; /* centraliza horizontalmente o conteúdo do footer */
     align-items: center; /* centraliza verticalmente o conteúdo do footer */
     color: #FFF; /* define a cor do texto no footer para branco */
-    font-size: 14px; /* ajuste o tamanho da fonte conforme necessário */
-    margin-bottom: 0; /* remove a margem inferior */
+    font-size: 14px; 
+    margin-bottom: 0; 
+  }
+
+  .itens-footer {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+
+  .icon-button {
+    padding: 15px;
+    border: none;
+    background-color: #97A624;
+    color: #FFF;
+    font-size: 30px;
+    cursor: pointer;
   }
   
+ 
