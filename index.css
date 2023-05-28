@@ -46,52 +46,71 @@
     justify-content: center;
     align-items: center;
     background-color: #F0F0F2;
-    }
-    
-    .img-title {
+    height: 80vh;
+  }
+  
+  .img-title {
     display: block;
     max-width: 100%;
     margin-bottom: 20px;
     margin-top: 40px;
-    }
-    
-    .title-number {
+  }
+  
+  .title-number {
     font-size: 20px;
     font-weight: bold;
     color: #97A624;
     margin-bottom: 20px;
     text-align: left;
-    }
-    
-    .result {
+  }
+  
+  .result {
     list-style-type: none;
     padding: 0;
-    }
-    
-    .result li {
+  }
+  
+  .result li {
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    }
-    
-    button {
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    border-color: #97A624;
+    background-color: #D9D9D9;
+    text-align: center;
+  }
+  
+  button {
     padding: 10px 20px;
     border: none;
     color: #FFF;
     font-weight: bold;
     cursor: pointer;
-   
-    }
-    
-    .sortear {
+  }
+  
+  .sortear {
     background-color: #97A624;
     margin-left: auto; /* adicionado para alinhar à direita */
-    }
-    
-    .limpar {
+  }
+  
+  .limpar {
     background-color: red;
     margin-right: auto; /* adicionado para alinhar à esquerda */
-    }
+  }
+  
   /*---------------FOOTER-----------------*/
+  footer {
+    position: relative;
+    background: #97A624;
+    height: 10vh;
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente o conteúdo do footer */
+    align-items: center; /* centraliza verticalmente o conteúdo do footer */
+    color: #FFF; /* define a cor do texto no footer para branco */
+    font-size: 14px; /* ajuste o tamanho da fonte conforme necessário */
+    margin-bottom: 0; /* remove a margem inferior */
+  }
   
