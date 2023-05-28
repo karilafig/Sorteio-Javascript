@@ -68,4 +68,24 @@ main {
     color:#97A624 ;
     margin-bottom: 20px;
 }
+.result {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .result li {
+    margin-bottom: 20px;
+  }
+  
+  
+  .line {
+    display: flex;
+    align-items: center;
+  }
+  
+  .line input[type="number"],
+  .line p {
+    display: inline-block;
+    margin: 0 20px;
+  }
 /*---------------FOOTER-----------------*/
