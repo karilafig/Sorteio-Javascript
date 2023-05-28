@@ -1,35 +1,31 @@
 /*---------------BACKGROUND-----------------*/
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-body{
+* {
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
-}
-
-/*---------------HEADER-----------------*/
-
-header{
-    position: relative; /* definir posição relativa para que o position:absolute do botão funcione corretamente */
-    background: #97A624;  
+  }
+  
+  /*---------------HEADER-----------------*/
+  header {
+    position: relative;
+    background: #97A624;
     width: 100%;
-    height:10vh;
+    height: 10vh;
     display: flex;
-}
-
-.logo-header{
-    position: absolute; /* definir posição absoluta para tirar a logo do fluxo normal de layout */
-    left: 20px; /* ajustar o posicionamento da logo conforme necessário */
+  }
+  
+  .logo-header {
+    position: absolute;
+    left: 20px;
     width: 60px;
-}
-
-.donate-button {
+  }
+  
+  .donate-button {
     margin-bottom: 10px;
-    position:absolute;
+    position: absolute;
     bottom: 0;
-    right: 30px; /* ajustar a margem direita do botão considerando a largura da logo e a margem horizontal */
-    background-color:#F0F0F2;
+    right: 30px;
+    background-color: #F0F0F2;
     color: #97A624;
     font-size: 16px;
     padding: 10px 20px;
@@ -40,52 +36,62 @@ header{
   
   .donate-button:hover {
     background-color: #A3AFBF;
-    color:#F0F0F2;
+    color: #F0F0F2;
   }
-
-/*---------------MAIN-----------------*/
-main {
+  
+  /*---------------MAIN-----------------*/
+  main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #F0F0F2;
+    }
     
-}
-
-.img-title {
+    .img-title {
     display: block;
-    max-width: 100%; /* garante que a imagem não ultrapasse a largura do elemento pai */
-    margin-bottom: 20px; /* adiciona um espaço entre a imagem e o título */
-    margin-top: 40px; /* adiciona um espaço entre a imagem e o topo do main */
-}
-
-.title-number {
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    color:#97A624 ;
+    max-width: 100%;
     margin-bottom: 20px;
-}
-.result {
+    margin-top: 40px;
+    }
+    
+    .title-number {
+    font-size: 20px;
+    font-weight: bold;
+    color: #97A624;
+    margin-bottom: 20px;
+    text-align: left;
+    }
+    
+    .result {
     list-style-type: none;
     padding: 0;
-  }
-  
-  .result li {
+    }
+    
+    .result li {
     margin-bottom: 20px;
-  }
-  
-  
-  .line {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-  }
+    }
+    
+    button {
+    padding: 10px 20px;
+    border: none;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+   
+    }
+    
+    .sortear {
+    background-color: #97A624;
+    margin-left: auto; /* adicionado para alinhar à direita */
+    }
+    
+    .limpar {
+    background-color: red;
+    margin-right: auto; /* adicionado para alinhar à esquerda */
+    }
+  /*---------------FOOTER-----------------*/
   
-  .line input[type="number"],
-  .line p {
-    display: inline-block;
-    margin: 0 20px;
-  }
-/*---------------FOOTER-----------------*/
