@@ -121,7 +121,18 @@
     list-style: none;
 }
 
-
+.itens-footer li {
+    margin: 0;
+    display: flex;
+  }
+  
+  .itens-footer li:first-child {
+    margin-right: 10px; /* Adicione espaço entre os botões se necessário */
+  }
+  
+  .itens-footer li:last-child {
+    margin-left: auto;
+  }
   .icon-button {
     padding: 15px;
     border: none;
